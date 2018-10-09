@@ -1,5 +1,5 @@
 #!/bin/sh
 
-./configure --prefix=/usr
+cmake .
 make
 make install
